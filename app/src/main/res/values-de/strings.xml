@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Snapney</string>
+
+    <string name="navigation_drawer_open">Öffne Menü</string>
+    <string name="navigation_drawer_close">Schließe Menü</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <string name="first_welcome">Herzlich Willkommen bei Snapney.</string>
+    <string name="introduction">Um dein Erlebnis etwas persönlicher zu gestalten, kannst du hier deinen Namen eingeben. Dieser kann jederzeit in den Einstellungen geändert werden.</string>
+    <string name="start">Los gehts</string>
+    <string name="this_month">Diesen Monat bis jetzt ausgegebenes Geld: </string>
+    <string name="last_month">Letzten Monat ausgegebene Summe:</string>
+    <string name="name_change">Namen ändern</string>
+    <string name="apply">Bestätigen</string>
+    <string name="delete">Speicher löschen</string>
+    <string name="overview">Übersicht</string>
+    <string name="camera">Scannen</string>
+    <string name="choose">Bild wählen</string>
+    <string name="accessExternal">Zugriff auf den externen Speicher wird benötigt um Bilder wählen zu können.</string>
+    <string name="spent_money">Ausgegebene Euros: </string>
+    <string name="currency">€</string>
+    <string name="use_menu">Bitte hier das Menü zur Navigation nutzen.</string>
+    <string name="saved">Einstellungen gespeichert.</string>
+    <string name="cleared">Daten gelöscht.</string>
+    <string name="no_picture_chosen">Kein Bild gewählt!</string>
+    <string name="detector">Texterkennung noch nicht bereit.</string>
+    <string name="found">Gefundener Wert:</string>
+    <string name="change_value">Hier können Sie den Wert gegebenenfalls korrigieren:</string>
+    <string name="cancel">Abbruch</string>
+    <string name="addition_error">Konnte den neuen Wert nicht dazuaddieren.</string>
+
+</resources>
