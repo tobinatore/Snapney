@@ -31,5 +31,6 @@
     <string name="change_value">You may now correct this value:</string>
     <string name="cancel">Cancel</string>
     <string name="addition_error">Failed to add the new value.</string>
+    <string name="sn_photo">Tap to choose value. Pinch to zoom.</string>
 
 </resources>

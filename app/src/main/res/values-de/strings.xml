@@ -30,5 +30,6 @@
     <string name="change_value">Hier können Sie den Wert gegebenenfalls korrigieren:</string>
     <string name="cancel">Abbruch</string>
     <string name="addition_error">Konnte den neuen Wert nicht dazuaddieren.</string>
+    <string name="sn_photo">Berühre ein Feld um den Wert zu übernehmen. Ziehe 2 Finger auseinander um zu zoomen.</string>
 
 </resources>

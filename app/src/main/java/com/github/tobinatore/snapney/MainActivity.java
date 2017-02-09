@@ -264,12 +264,13 @@ public class MainActivity extends AppCompatActivity
     public String setMoney(){
         final String PREFS_NAME = "SN_PREFS";
         final String PREFS_KEY = "SN_PREFS_MONEY";
-        String date = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+        CharSequence d = android.text.format.DateFormat.format("yyyy-MM-dd hh:mm:ss a", new java.util.Date());
+        String date = d.toString();
 
         SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
         String month  = prefs.getString("SN_PREFS_DATE", "13");
 
-        String[] parts = date.split("\\.");
+        String[] parts = date.split("\\-");
 
         if (parts[1].contentEquals(month)){
             String text;

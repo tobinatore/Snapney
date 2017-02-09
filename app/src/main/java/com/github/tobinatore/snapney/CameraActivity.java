@@ -115,7 +115,7 @@ public class CameraActivity extends AppCompatActivity {
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-        Snackbar.make(mGraphicOverlay, "Berühre ein Feld um den Wert zu übernehmen. Ziehe 2 Finger auseinander um zu zoomen.",
+        Snackbar.make(mGraphicOverlay, R.string.sn_photo,
                 Snackbar.LENGTH_LONG)
                 .show();
 
@@ -438,7 +438,7 @@ public class CameraActivity extends AppCompatActivity {
             editor.putFloat(PREFS_KEY, saved);
             editor.commit();
         } else {
-            Snackbar.make(mGraphicOverlay, "Konnte den neuen Wert nicht dazuaddieren.",
+            Snackbar.make(mGraphicOverlay,R.string.addition_error,
                     Snackbar.LENGTH_LONG)
                     .show();
         }
